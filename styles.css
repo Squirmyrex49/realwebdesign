@@ -1,0 +1,127 @@
+/*CSS DOCUMENT FOR A RESPONSIVE PAGE by Chase Condon 2022*/
+body{
+    background-color: #58a5d7;
+}
+.pagebox{
+    background-color: #ffffff;
+    width: 80%;
+    margin:auto;
+}
+.banner{
+    width: 100%;
+}
+ul{
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
+}
+li{
+float: left;
+font-family: Helvetica, sans-serif;
+}
+li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.current{
+background-color: #885504;
+}
+li:hover{
+    background-color: #111111;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    color: #cf5cf1;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    color: #cf5cf1;
+}
+.smallimage{
+    width: 45%;
+    float: left;
+padding: 5px;
+}
+.smallimager{
+    width: 45%;
+    float: right;
+padding: 5px;
+}
+hr{
+    clear: both;
+}
+p{
+    font-size: 125%;
+}
+
+header{
+    background-color: #000000;
+    
+}
+
+caption{
+    font-size: 18pt;
+    background-color: #58a5d7;
+    color: #0f0f0f;
+      }
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin:auto;
+    align: center;
+
+}
+td, th{
+    border: 1px solid #000000;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+th:hover, td:hover {background-color: #c8ca38;}
+
+form{
+    padding: 8px;
+}
+footer{
+text-align: center;
+
+}
+
+@media only screen and (max-width:767px){
+.pagebox{width: 90%;}
+}
+
+@media only screen and (max-width:550px){
+    .pagebox{width: 98%;}
+    nav{
+        width: 100%;
+        overflow: hidden;
+        padding: 0pxs;
+    }
+    a{width: 100%;
+    display: block;
+text-align: center;
+background-color: #000000;
+border-style: solid;
+border-width: 1px;
+border-color: #323232;
+}
+li{width: 100%;}
+li a{padding-left: 0px;}
+.smallimage{
+    width: 95%;
+    padding: 2% 3%;
+    float:none;}
+.smallimager{
+    width: 95%;
+    padding: 2% 3%;
+    float:none;
+}
+.slideshowarticle{display: none;}
+    }
+    
